@@ -78,3 +78,27 @@ img{
     background-color: #D1B3A4; 
     border-radius: 15px;
 }
+
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.offer-card {
+    border: none;
+    background-color: #e7b8a3;
+}
+.offer-text {
+    font-weight: bold;
+    color: #D1B3A4
+}
+.publication {
+    margin-bottom: 15px;
+}
+.image-container img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
