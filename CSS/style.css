@@ -8,6 +8,9 @@ html, body {
 
 nav{
     min-height: 10vh;
+    position: sticky;
+    top: 0;
+    background-color: #C48B7A;
 }
 
 nav ul{
