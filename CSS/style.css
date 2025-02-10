@@ -15,6 +15,11 @@ nav{
 
 nav ul{
     list-style-type: none;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 7.5vh;
+    right: 0;
 }
 
 .nav-link {
@@ -49,6 +54,13 @@ img{
     height: auto;
 }
 
+.dropdown{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .divider {
     height: 3px;
     background-color: #f5e9e4;
@@ -59,6 +71,33 @@ img{
     position: absolute;
     right: 0;
     bottom: 5vh;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.offer-card {
+    border: none;
+    background-color: #e7b8a3;
+}
+
+.offer-text {
+    font-weight: bold;
+    color: #D1B3A4
+}
+
+.publication {
+    margin-bottom: 15px;
+}
+
+.image-container img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
 }
 
 #mainWrap{
@@ -79,26 +118,6 @@ img{
     border-radius: 15px;
 }
 
-
-.section-title {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.offer-card {
-    border: none;
-    background-color: #e7b8a3;
-}
-.offer-text {
-    font-weight: bold;
-    color: #D1B3A4
-}
-.publication {
-    margin-bottom: 15px;
-}
-.image-container img {
-    border-radius: 20px;
-    width: 100%;
-    height: auto;
-    max-width: 400px;
+#visie img{
+    border-radius: 10px;
 }
