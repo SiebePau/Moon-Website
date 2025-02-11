@@ -1,0 +1,40 @@
+/* Voorkom scrollen en achtergrond kleur */
+html, body {
+    background-color: #C48B7A;
+}
+
+
+.divider {
+    border-top: 2px solid #f5e9e4; /* Kleur van de lijn */
+    width: 600px;
+}
+
+.nav-link {
+    color: #f5e9e4;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-container {
+    margin-top: 100px; /* Extra ruimte bovenaan */
+}
+
+.navbar {
+    justify-content: flex-start; /* Zorgt ervoor dat de navbar links uitgelijnd wordt */
+}
+
+.navbar-nav .nav-link {
+    letter-spacing: 0.1rem;
+}
+
+/* Center de inhoud */
+.centered-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
