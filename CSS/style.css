@@ -1,40 +1,77 @@
-/* Voorkom scrollen en achtergrond kleur */
+html{
+    font-size: 14pt;
+}
+
 html, body {
     background-color: #C48B7A;
 }
 
+nav{
+    min-height: 10vh;
+}
 
-.divider {
-    border-top: 2px solid #f5e9e4; /* Kleur van de lijn */
-    width: 600px;
+nav ul{
+    list-style-type: none;
 }
 
 .nav-link {
     color: #f5e9e4;
     font-weight: 500;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .nav-link:hover {
     color: white;
 }
 
-.nav-container {
-    margin-top: 100px; /* Extra ruimte bovenaan */
-}
-
-.navbar {
-    justify-content: flex-start; /* Zorgt ervoor dat de navbar links uitgelijnd wordt */
-}
-
 .navbar-nav .nav-link {
     letter-spacing: 0.1rem;
 }
 
-/* Center de inhoud */
-.centered-content {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1{
+    font-size: 3.5rem;
+    letter-spacing: 0.1em; 
+    color: #f5e9e4;
+}
+
+h1, h2, h3{
+    font-family: "Rowdies", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.divider {
+    height: 3px;
+    background-color: #f5e9e4;
+    border-radius: 5px;
+}
+
+.divider-right{
+    position: absolute;
+    right: 0;
+    bottom: 5vh;
+}
+
+#mainWrap{
+    text-align: center;
+    min-height: 90vh;
+}
+
+#mainWrap p{
+    font-size: 1.5rem;
+}
+
+#visie{
+    min-height: 100vh;
+}
+
+#visie div{
+    background-color: #D1B3A4; 
+    border-radius: 15px;
 }
