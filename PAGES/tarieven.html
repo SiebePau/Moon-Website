@@ -5,42 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Moon demo</title>
     
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
   </head>
   <body>
-   
-    <nav class="row align-items-center m-0 navbar-toggler" data-toggle="collapse" data-target="#navList">
-        <div class="col-8 col-md-4 divider"></div>
-        <ul id="navList" class="col-6 col-md-8 d-md-flex justify-content-center align-items-center m-0">
-          <li class="d-md-none d-flex flex-wrap">
-            <p class="col-8 text-center">Moon</p>
-            <p class="col-4" onclick="dropdown(false)"><i class="fa-solid fa-xmark"></i></p>
-          </li>
-          <li>
-            <a class="nav-link p-2" href="../Index.html">Praktijk Moon</a>
-          </li>
-          <li>
-            <a class="nav-link p-2" href="team.html">Team</a>
-          </li>
-          <li>
-            <a class="nav-link p-2" href="aanbod.html">Aanbod</a>
-          </li>
-          <li>
-            <a class="nav-link p-2" href="#">Tarieven</a>
-          </li>
-          <li>
-            <a class="nav-link p-2" href="agenda.html">Agenda</a>
-          </li>
-          <li>
-            <a class="nav-link p-2" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>    
+    <nav class="row align-items-center justify-content-end m-0">
+      <div class="col-7 col-md-4 divider"></div>
+      <div class="col-5 d-md-none p-3 dropdown" onclick="dropdown(true)">Menu <i class="fa-solid fa-bars"></i></div>
+      <ul id="navList" class="col-6 col-md-8 d-md-flex justify-content-center align-items-center m-0">
+        <li class="d-md-none d-flex flex-wrap">
+          <p class="col-8 text-center">Moon</p>
+          <p class="col-4" onclick="dropdown(false)"><i class="fa-solid fa-xmark"></i></p>
+        </li>
+        <li>
+          <a class="nav-link p-2 animate__animated animate__fadeInTopLeft" href="/Index.html">Praktijk Moon</a>
+        </li>
+        <li>
+          <a class="nav-link p-2 animate__animated animate__fadeInTopLeft" href="/PAGES/team.html">Team</a>
+        </li>
+        <li>
+          <a class="nav-link p-2 animate__animated animate__fadeInTopLeft" href="/PAGES/aanbod.html">Aanbod</a>
+        </li>
+        <li>
+          <a class="nav-link p-2 animate__animated animate__fadeInTopLeft" href="/PAGES/agenda.html">Agenda</a>
+        </li>
+        <li>
+          <a class="nav-link p-2 animate__animated animate__fadeInTopLeft" href="/PAGES/contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>

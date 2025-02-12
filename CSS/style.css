@@ -1,16 +1,17 @@
-html{
-    font-size: 14pt;
+html {
+  font-size: 14pt;
 }
 
-html, body {
-    background-color: #C48B7A;
+html,
+body {
+  background-color: #c48b7a;
 }
 
-nav{
-    min-height: 10vh;
-    position: sticky;
-    top: 0;
-    background-color: #C48B7A;
+nav {
+  min-height: 10vh;
+  position: sticky;
+  top: 0;
+  background-color: #c48b7a;
 }
 
 nav ul{
@@ -24,103 +25,106 @@ nav ul{
 }
 
 .nav-link {
-    color: #f5e9e4;
-    font-weight: 500;
-    text-transform: uppercase;
-    text-decoration: none;
+  color: #f5e9e4;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .nav-link:hover {
-    color: white;
+  color: white;
 }
 
 .navbar-nav .nav-link {
-    letter-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
 }
 
-h1{
-    font-size: 3.5rem;
-    letter-spacing: 0.1em; 
-    color: #f5e9e4;
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.1em;
+  color: #f5e9e4;
 }
 
-h1, h2, h3{
-    font-family: "Rowdies", serif;
-    font-weight: 400;
-    font-style: normal;
+h1,
+h2,
+h3 {
+  font-family: "Rowdies", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.dropdown{
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
+.dropdown {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .divider {
-    height: 3px;
-    background-color: #f5e9e4;
-    border-radius: 5px;
+  height: 3px;
+  background-color: #f5e9e4;
+  border-radius: 5px;
 }
 
-.divider-right{
-    position: absolute;
-    right: 0;
-    bottom: 5vh;
+.divider-right {
+  position: absolute;
+  right: 0;
+  bottom: 5vh;
 }
 
 .section-title {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .offer-card {
-    border: none;
-    background-color: #e7b8a3;
+  border: none;
+  background-color: #e7b8a3;
 }
 
 .offer-text {
-    font-weight: bold;
-    color: #D1B3A4
+  font-weight: bold;
+  color: #d1b3a4;
 }
 
 .publication {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .image-container img {
-    border-radius: 20px;
-    width: 100%;
-    height: auto;
-    max-width: 400px;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
 }
 
-#mainWrap{
-    text-align: center;
-    min-height: 90vh;
+#mainWrap {
+  text-align: center;
+  min-height: 90vh;
 }
 
-#mainWrap p{
-    font-size: 1.5rem;
+#mainWrap p {
+  font-size: 1.5rem;
 }
 
-#visie{
-    min-height: 100vh;
+#visie {
+  min-height: 100vh;
 }
 
-#visie div{
-    background-color: #D1B3A4; 
-    border-radius: 15px;
+#visie div {
+  background-color: #d1b3a4;
+  border-radius: 15px;
+
 }
 
 #visie img{
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 768px){
@@ -133,3 +137,4 @@ img{
         right: inherit;
     }
 }
+
