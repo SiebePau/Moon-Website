@@ -20,6 +20,7 @@ nav ul{
     position: absolute;
     top: 7.5vh;
     right: 0;
+    background-color: #C48B7A;
 }
 
 .nav-link {
@@ -120,4 +121,15 @@ img{
 
 #visie img{
     border-radius: 10px;
+}
+
+@media screen and (min-width: 768px){
+    nav ul{
+        list-style-type: none;
+        text-align: center;
+        display: none;
+        position: inherit;
+        top: inherit;
+        right: inherit;
+    }
 }
