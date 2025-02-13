@@ -92,6 +92,21 @@ footer a:hover{
   color: #B2D8D8;
 }
 
+.aanbod{
+  background-color: #023020;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.aanbod ul{
+  text-align: start;
+}
+
+.aanbod a{
+  text-decoration: none;
+}
+
 .dropdown {
   text-align: center;
   color: white;
