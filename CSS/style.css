@@ -84,10 +84,6 @@ footer a{
   color: #66B2B2;
 }
 
-footer p:last-child{
-  text-align: end;
-}
-
 footer a:hover{
   color: #B2D8D8;
 }
@@ -208,5 +204,9 @@ footer a:hover{
         position: inherit;
         top: inherit;
         right: inherit;
+    }
+
+    .end{
+      text-align: end;
     }
 }
