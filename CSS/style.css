@@ -23,18 +23,17 @@ nav ul{
     right: 0;
     background-color: #C48B7A;
     border-radius: 10px;
-    z-index: 1;
 }
 
 .nav-link {
-  color: #f5e9e4;
+  color: #E3C6B9;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: white;
+  color: #F2DED7;
 }
 
 .navbar-nav .nav-link {
@@ -44,7 +43,7 @@ nav ul{
 h1 {
   font-size: 3.5rem;
   letter-spacing: 0.1em;
-  color: #f5e9e4;
+  color: #F2DED7;
 }
 
 h1,
@@ -75,44 +74,49 @@ iframe{
 }
 
 footer{
-  background-color: #636363;
-  color: white;
+  background-color: #3a3a3a;
+  color: #F2DED7;
 }
 
 footer a{
   text-decoration: none;
-  color: #66B2B2;
+  color: #6A8D92;
 }
 
 footer a:hover{
-  color: #B2D8D8;
+  color:  #F2DED7;
 }
 
-.aanbod{
+.card{
   background-color: #ffe4e1;
   color: black;
   border-radius: 5px;
   text-align: center;
+  height: 100%;
+  position: relative;
 }
 
-.aanbod ul{
-  text-align: start;
+.card img{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
-.aanbod a{
-  text-decoration: none;
+.card a{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
 }
 
 .dropdown {
   text-align: center;
-  color: white;
+  color: #F2DED7;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .divider {
   height: 3px;
-  background-color: #f5e9e4;
+  background-color: #F2DED7	;
   border-radius: 5px;
 }
 
@@ -125,12 +129,13 @@ footer a:hover{
 .primary-button{
   border: none;
   border-radius: 10px;
-  background-image: linear-gradient(to right, #000080 50%, #2E5A88 50%);
+  background-image: linear-gradient(to right, #6A8D92  50%, #2E5A88 50%);
   background-size: 200% 100%;
   background-position: right;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
+  text-decoration: none;
 }
 
 .primary-button:hover{
@@ -175,7 +180,7 @@ footer a:hover{
 
 #contactWrap{
   text-align: start;
-  color: white;
+  color: #F2DED7;
 }
 
 #mainWrap p {
