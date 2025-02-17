@@ -179,6 +179,17 @@ footer a:hover{
   transition: .25s;
 }
 
+
+.btn-primary {
+  font-size: 0.9em;
+  padding: 8px 15px;
+}
+
+.img-fluid {
+  max-width: 90%;
+}
+
+
 #mainWrap, #contactWrap{
   text-align: center;
   min-height: 90vh;
