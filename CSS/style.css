@@ -2,6 +2,10 @@ html {
   font-size: 14pt;
 }
 
+body{
+  color: white;
+}
+
 html,
 body {
   background-color: #c48b7a;
@@ -101,12 +105,6 @@ footer a:hover{
   border-top-left-radius: 5px;
 }
 
-.card a{
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-}
-
 .dropdown {
   text-align: center;
   color: #F2DED7;
@@ -126,6 +124,10 @@ footer a:hover{
   bottom: 5vh;
 }
 
+.circle-img{
+  border-radius: 50%;
+}
+
 .primary-button{
   border: none;
   border-radius: 10px;
@@ -140,6 +142,10 @@ footer a:hover{
 
 .primary-button:hover{
   background-position: left;
+}
+
+.mainWrap{
+  min-height: 100vh;
 }
 
 .section-title {
@@ -183,22 +189,12 @@ footer a:hover{
   color: #F2DED7;
 }
 
-#mainWrap p {
-  font-size: 1.5rem;
-}
-
-#visie {
+#visie, #team {
   min-height: 100vh;
 }
 
-#visie div {
-  background-color: #d1b3a4;
-  border-radius: 15px;
-
-}
-
-#visie img{
-  border-radius: 10px;
+#team a{
+  text-align: center;
 }
 
 @media screen and (min-width: 768px){

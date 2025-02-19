@@ -19,53 +19,55 @@
 
 <body>
 
-  <nav class="row align-items-center justify-content-end m-0">
-    <div class="col-7 col-md-4 divider"></div>
-    <div class="col-5 d-md-none p-3 dropdown" onclick="dropdown()">Menu <i id="dropdown" class="fa-solid fa-chevron-down"></i></div>
-    <ul id="navList" class="col-6 col-md-8 d-md-flex justify-content-center align-items-center m-0">
-      <li>
-          <a class="nav-link p-2 animate__animated animate__fadeIn" href="/Index.html">Praktijk Moon</a>
-      </li>
-      <li>
-          <a class="nav-link p-2 animate__animated animate__fadeIn" href="/PAGES/team.html">Team</a>
-      </li>
-      <li>
-          <a class="nav-link p-2 animate__animated animate__fadeIn" href="/PAGES/tarieven.html">Tarieven</a>
-      </li>
-      <li>
-        <a class="nav-link p-2 animate__animated animate__fadeIn" href="/PAGES/aanbod.html">Aanbod</a>
-      </li>
-      <li>
-          <a class="nav-link p-2 animate__animated animate__fadeIn" href="/PAGES/agenda.html">Agenda</a>
-      </li>
-      <li>
-          <a class="nav-link p-2 animate__animated animate__fadeIn" href="#">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
-  <div class="container">
-    <div id="contactWrap" class="row align-items-center m-0">
-      <h1 class="col-12 mb-0">Contact</h1>
-      <p class="col-12 mt-0">Heb je vragen over onze vroedvrouwzorg of wil je meer informatie? Vul hieronder het contactformulier in en we nemen zo snel mogelijk contact met je op. We staan klaar om je te helpen en je te begeleiden tijdens deze bijzondere periode!</p>
-
-      <div class="col-xl-6">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.591503901025!2d5.230529476803681!3d51.189751571742846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c132ff1254b64d%3A0x2eeae6efdf25f70f!2sForcitestraat%2033_1%2C%202490%20Balen!5e0!3m2!1snl!2sbe!4v1739388464924!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-
-      <div class="col-xl-6 d-flex flex-wrap justify-content-center">      
-        <form class="col-12 d-flex flex-wrap" action="" method="POST">
-          <label class="col-12" for="naam">Naam:</label>
-          <input class="col-12 mb-3 p-1" type="text" placeholder="Jouw naam ..." required>
-
-          <label class="col-12" for="email">Email</label>
-          <input class="col-12 mb-3 p-1" type="email" placeholder="Jouw email ..." required>
-
-          <label class="col-12" for="bericht">Bericht:</label>
-          <textarea class="col-12 mb-4 p-1" name="bericht" placeholder="Jouw bericht ...." required></textarea>
-
-          <button class="col-md-6 col-lg-4 offset-md-3 offset-lg-4 p-1 primary-button transition-short">verstuur</button>
-        </form>
+  <div class="mainWrap">
+    <nav class="row align-items-center justify-content-end m-0">
+      <div class="col-7 col-md-4 divider"></div>
+      <div class="col-5 d-md-none p-3 dropdown" onclick="dropdown()">Menu <i id="dropdown" class="fa-solid fa-chevron-down transition-short"></i></div>
+      <ul id="navList" class="col-6 col-md-8 d-md-flex justify-content-center align-items-center m-0">
+        <li>
+            <a class="nav-link p-2 animate__animated animate__fadeIn" href="/Index.html">Praktijk Moon</a>
+        </li>
+        <li>
+            <a class="nav-link p-2 animate__animated animate__fadeIn" href="/PAGES/team.html">Team</a>
+        </li>
+        <li>
+            <a class="nav-link p-2 animate__animated animate__fadeIn" href="/PAGES/tarieven.html">Tarieven</a>
+        </li>
+        <li>
+          <a class="nav-link p-2 animate__animated animate__fadeIn" href="/PAGES/aanbod.html">Aanbod</a>
+        </li>
+        <li>
+            <a class="nav-link p-2 animate__animated animate__fadeIn" href="/PAGES/agenda.html">Agenda</a>
+        </li>
+        <li>
+            <a class="nav-link p-2 animate__animated animate__fadeIn" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  
+    <div class="container">
+      <div id="contactWrap" class="row align-items-center m-0">
+        <h1 class="col-12 mb-0">Contact</h1>
+        <p class="col-12 mt-0">Heb je vragen over onze vroedvrouwzorg of wil je meer informatie? Vul hieronder het contactformulier in en we nemen zo snel mogelijk contact met je op. We staan klaar om je te helpen en je te begeleiden tijdens deze bijzondere periode!</p>
+  
+        <div class="col-xl-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.591503901025!2d5.230529476803681!3d51.189751571742846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c132ff1254b64d%3A0x2eeae6efdf25f70f!2sForcitestraat%2033_1%2C%202490%20Balen!5e0!3m2!1snl!2sbe!4v1739388464924!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+  
+        <div class="col-xl-6 d-flex flex-wrap justify-content-center">      
+          <form class="col-12 d-flex flex-wrap" action="" method="POST">
+            <label class="col-12" for="naam">Naam:</label>
+            <input class="col-12 mb-3 p-1" type="text" placeholder="Jouw naam ..." required>
+  
+            <label class="col-12" for="email">Email</label>
+            <input class="col-12 mb-3 p-1" type="email" placeholder="Jouw email ..." required>
+  
+            <label class="col-12" for="bericht">Bericht:</label>
+            <textarea class="col-12 mb-4 p-1" name="bericht" placeholder="Jouw bericht ...." required></textarea>
+  
+            <button class="col-md-6 col-lg-4 offset-md-3 offset-lg-4 p-1 primary-button transition-short">verstuur</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
