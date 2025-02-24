@@ -186,6 +186,11 @@ footer a:hover{
   max-width: 90%;
 }
 
+#visie{
+  background-color: #E0E0D5;
+  color: #C48B7B;
+}
+
 
 #mainWrap, #contactWrap{
   text-align: center;
