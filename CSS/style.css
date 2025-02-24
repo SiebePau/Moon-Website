@@ -159,6 +159,10 @@ footer a:hover{
   margin-bottom: 20px;
 }
 
+.font{
+  font-family: "Rowdies", serif;
+}
+
 .offer-card {
   border: none;
   background-color: #e7b8a3;
@@ -215,6 +219,10 @@ footer a:hover{
 
 #visie, #team {
   min-height: 100vh;
+}
+
+#clandy{
+  height: 100vh;
 }
 
 #team a{
