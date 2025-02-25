@@ -87,8 +87,25 @@ footer a:hover{
   color:  #F2DED7;
 }
 
+.button {
+  background-color: #E0E0D5;
+  color: #3A3A3A;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .card{
-  background-color: #ffe4e1;
+  background-color: #E0E0D5;
   color: black;
   border-radius: 5px;
   text-align: center;
