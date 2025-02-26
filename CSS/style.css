@@ -87,17 +87,6 @@ footer a:hover{
   color:  #D4DED5;
 }
 
-.button {
-  background-color: #E0E0D5;
-  color: #3A3A3A;
-  padding: 8px 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
-  text-decoration: none;
-}
-
 .right-menu {
   display: flex;
   align-items: center;
@@ -161,6 +150,17 @@ footer a:hover{
   font-weight: bold;
   color: white;
   text-decoration: none;
+}
+
+.nav-button{
+  border-radius: 25px;
+  font-weight: bold;
+  background-color: #D4DED5;
+}
+
+.nav-button:hover{
+  background-color: white;
+  color: black;
 }
 
 .primary-button:hover{
