@@ -143,12 +143,12 @@ footer a:hover{
 .primary-button{
   border: none;
   border-radius: 10px;
-  background-image: linear-gradient(to right, #6A8D92  50%, #E0E0D5 50%);
+  background-image: linear-gradient(to right, #7b889e  50%, #65748e 50%);
   background-size: 200% 100%;
   background-position: right;
   text-transform: uppercase;
   font-weight: bold;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
