@@ -3,6 +3,7 @@ html {
 }
 
 body{
+
   color: white;
 
 }
@@ -221,8 +222,8 @@ footer a:hover{
 }
 
 #visie{
-  background-color: #D8A89A;
-  color: black;
+  background-color: #E0E0D5;
+  color: #C48B7A;
 }
 
 #mainWrap, #contactWrap{
