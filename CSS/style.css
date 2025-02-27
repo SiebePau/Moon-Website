@@ -4,7 +4,7 @@ html {
 
 body{
 
-  color: white;
+  color: #DFDCD1;
 
 }
 
@@ -224,6 +224,9 @@ footer a:hover{
 #visie{
   background-color: #E0E0D5;
   color: #C48B7A;
+}
+#visieTekst{
+  color: black;
 }
 
 #mainWrap, #contactWrap{
