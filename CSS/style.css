@@ -81,11 +81,11 @@ footer{
 
 footer a{
   text-decoration: none;
-  color: #6A8D92;
+  color: rgb(100,100,100);
 }
 
 footer a:hover{
-  color:  #D4DED5;
+  color:  #6A8D92;
 }
 
 .right-menu {
